@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Parks Service Search App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="search-form">
+    <form id="js-park-search-form">
+      <label for="search-park">State</label>
+      <input type="text" name="search-park" id="js-search-park-state" required>
+      <label for="search-number">Number of results</label>
+      <input type="text" name="search-number" id="js-search-park-max">
+      <input type="submit" value="Search">
+    </form>
+  </section>
+  <section class="results">
+    <ul class="search-results">
+
+    </ul>  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
